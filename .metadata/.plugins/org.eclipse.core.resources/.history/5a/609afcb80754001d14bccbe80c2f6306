@@ -1,0 +1,41 @@
+package com.experion.assignment1;
+
+import java.util.Scanner;
+
+public class SumOfSeries_05 {
+
+	public static void main(String[] args) {
+		int limit;
+		double sum =0;
+		int sign = 1;
+		
+		
+		// TODO Auto-generated method stub
+		System.out.println("Enter the limit");
+		Scanner scanner= new Scanner(System.in);
+		limit = scanner.nextInt();
+		
+		System.out.println("Sum of the series of type 1-3+5-7+.............+n");
+		
+		 int i = 1, c, f = 1;                            
+		  for (c = 1; c <= limit; c++) {
+			for(int k =1;k<=limit;k++) {  
+		        if (f % 2 == 0) {
+		   // System.out.print(-i + " ");
+		         sum = sum + (-1)* Math.pow(i,k);
+		        } else {
+		   // System.out.print(i + " ");
+		         sum = sum+i;
+		         }
+		        
+		   i += 2;
+		   f++;
+		  }
+		  }
+		//System.out.println("Sum of first"+ " "+ limit+" "+"digits:"+ sum);
+		  System.out.println(sum);
+
+		
+	}
+
+}

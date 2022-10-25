@@ -1,0 +1,37 @@
+package com.experion.assignment1;
+
+public class SumOfSeries_06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  int N = 5;
+		  
+	        System.out.println("The sum of series upto " + N
+	                           + " terms is : "
+	                           + calculateSum(N));
+		
+		
+	}
+
+	public static String calculateSum(int n) {
+		// TODO Auto-generated method stub'
+		double sum = 0;
+		 
+        // Iteration by running a loop N times
+        for (int i = 1; i <= N; i++) {
+            sum = sum + ((double)i / factorial(i));
+        }
+ 
+        // Return calculated final sum
+        return sum;
+		
+	}
+
+	public static double factorial(int i) {
+		 if (i == 1) {
+	            return 1;
+	        }
+	        return i * factorial(i - 1);
+	}
+
+}

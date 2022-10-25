@@ -1,0 +1,49 @@
+package com.experion.assignment20;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+import com.experion.entity.Electronics;
+
+public class Services {
+	Scanner scanner = new Scanner(System.in);
+	
+	
+	void addProductDetails(){
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter Product Code");
+		String productCode = scanner.nextLine();
+		System.out.println("Enter Product Name");
+		String productName = scanner.nextLine();
+		System.out.println("Enter Product Price");
+		String productType = scanner.nextLine();
+		System.out.println("Enter the validity Date:");
+		String validityDate = scanner.nextLine();
+		// date
+		Date dateValidity = convertStringToDate(dateValidity);
+
+		System.out.println("Enter the expiry date:");
+		String expiryDate = scanner.nextLine();
+		Date dateexpiry = convertStringToDate(expiryDate);
+		product = new Product(productCode, productName,dateValidity, dateexpiry);
+	}
+
+
+	private Date convertStringToDate(Date dateValidity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	private Date convertStringToDate(String dateValidity) throws ParseException {
+		// TODO Auto-generated method stub
+		DateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+		Date convertedDate = formatter.parse(dateValidity);
+		return convertedDate;
+		
+	}
+
+}

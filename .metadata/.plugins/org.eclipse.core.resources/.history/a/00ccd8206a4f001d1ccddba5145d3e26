@@ -1,0 +1,36 @@
+package com.experion.service;
+
+import com.experion.entity.Card;
+import com.experion.entity.Product;
+
+public class Service{
+
+	public static Product createProduct(String productType) {
+		
+		Product product = null;
+		//Card card = new Card("PRDM100", "Master Card","Cards","Master" );
+		if(productType.compareTo("Cards")==0)
+		{
+		 product = new Card("PRDM100", "Master Card","Cards","Master" );
+		}else if (productType.compareTo("Account")==0) {
+			 product = new Account("PRDWSA100", "Womens Saving Account","Accounts" );
+			
+		}
+		return product;
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void createAccountProduct() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void buyProduct() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+}

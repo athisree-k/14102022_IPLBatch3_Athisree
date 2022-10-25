@@ -1,0 +1,125 @@
+package com.experion.entity;
+
+import java.util.Date;
+
+import java.util.Scanner;
+
+public class Product {
+
+	private String productCode;
+	private String productName;
+	private String productDescription;
+	private double productPrice;
+	Date openDate;
+	Date validityDate;
+	Date expiryDate;
+	private boolean active;
+	private static int serialNo=0;
+	private int serialNoOriginal;
+	
+	
+	public Product() {
+		
+	}
+	
+	public Product(String productCode, String productName,String productDescription,double productPrice,Date openDate,	Date validityDate,Date expiryDate,boolean active ) {
+		this.productCode =productCode;
+		this.productName = productName;
+		this.productDescription = productDescription;
+		this.productPrice = productPrice;
+		this.openDate = openDate;
+		this.validityDate = validityDate;
+		this.expiryDate = expiryDate;
+		this.active = active;
+	}
+	
+	public void setSerialNo(int serialNo) {
+		this.serialNo = serialNo;
+	}
+
+	public int getSerialNo() {
+
+		return serialNo;
+
+	}
+	
+	
+	
+
+	public void setProductCode(String productCode) {
+		this.productCode = productCode;
+	}
+
+	public String getProductCode() {
+
+		return productCode;
+
+	}
+	
+	
+	public void setproductName(String productName) {
+		this.productName = productName;
+	}
+
+	public String getproductName() {
+
+		return productName;
+
+	}
+	
+	
+	public void  setproductDescription(String  productDescription)
+	{
+		this. productDescription =  productDescription;
+	}
+
+	public String getproductDescription() 
+	{
+		return productDescription;
+
+	}
+	
+	public void  setproductPrice(double  productPrice)
+	{
+		this.productPrice =  productPrice;
+	}
+
+	public double getproductPrice() 
+	{
+		return productPrice;
+
+	}
+	
+	
+	public void  setIsactive(boolean active)
+	{
+		this.active =  active;
+	}
+
+	public boolean getIsactive() 
+	{
+		return active;
+		
+
+	}
+
+	public int getSerialNoOriginal() {
+		return serialNoOriginal;
+	}
+
+	public void setSerialNoOriginal(int serialNoOriginal) {
+		this.serialNoOriginal = serialNoOriginal;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+}

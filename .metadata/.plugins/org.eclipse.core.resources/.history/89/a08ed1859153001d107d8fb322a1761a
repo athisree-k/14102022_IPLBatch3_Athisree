@@ -1,0 +1,29 @@
+package com.experion.assignment1;
+
+import java.util.Scanner;
+
+public class SumOfSeries {
+
+	public static void main(String[] args) {
+		int limit;
+		int sum =0,sign = 1;
+		
+		
+		// TODO Auto-generated method stub
+		System.out.println("Enter the limit");
+		Scanner scanner= new Scanner(System.in);
+		limit = scanner.nextInt();
+		
+		System.out.println("Sum of the series of type 1-3+5-7+.............+n");
+		
+		for(int i=1;i<=limit;i+=2) {
+			
+			sum = sum + (i*sign);
+			sign = sign*(-1);	
+		}
+		System.out.println("Sum of first"+ " "+ limit+" "+"digits:"+ sum);
+		
+
+	}
+
+}

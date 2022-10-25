@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.experion.service.Service"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="com.experion.entity.Card"/>
+    <fullyQualifiedTypeName name="com.experion.service.LoanServices"/>
+    <fullyQualifiedTypeName name="com.experion.service.AccountCardServices"/>
+    <fullyQualifiedTypeName name="java.security.Provider.Service"/>
+    <fullyQualifiedTypeName name="com.experion.services.Services"/>
+    <fullyQualifiedTypeName name="com.experion.entity.Fabric"/>
+    <fullyQualifiedTypeName name="com.experion.services.ElectronicService"/>
+    <fullyQualifiedTypeName name="com.experion.entity.Electronics"/>
+    <fullyQualifiedTypeName name="com.experion.entity.Fabrics"/>
+    <fullyQualifiedTypeName name="com.experion.entity.Product"/>
+    <fullyQualifiedTypeName name="com.experion.services.Service"/>
+    <fullyQualifiedTypeName name="com.experion.services.ElectronicServices"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.text.DateFormat"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="com.experion.entity.Customer"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

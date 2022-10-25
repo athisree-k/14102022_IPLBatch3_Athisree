@@ -1,0 +1,43 @@
+package com.experion.utility;
+
+import com.experion.service.Service;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.experion.entity.Product;
+
+
+public class ProductUtility {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Product> productList= null;
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("1. Add Card Prodcuts, 2. Add Account Products, 3. Buy Product");
+		int choice = scanner.nextInt();
+		char mainChoice;
+		switch(choice)
+		{
+		case 1 :productList.add(Service.createCardProduct("Cards"));
+		        break;
+		case 2 :productList.add(Service.createAccountProduct());
+		        break;
+		case 3 :Service.buyProduct();
+		        break;
+	    default: System.out.println("Invalid Choice");
+		
+		}
+		System.out.println("Do you want to continue(y/n");
+		mainChoice = scanner.next().charAt(0);
+		}
+	while (mainChoice=='y');
+		
+		
+		    	
+		    	
+		// TODO Auto-generated method stub
+
+	}
+
+

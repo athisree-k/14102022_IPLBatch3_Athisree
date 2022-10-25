@@ -1,0 +1,11 @@
+package com.experion.service;
+
+public abstract class CardAccountService  {
+	
+	abstract void checkBalance() {
+		System.out.println("Validity check of account class called: ");
+	}
+	;
+	abstract void cashWidthdraw();
+
+}

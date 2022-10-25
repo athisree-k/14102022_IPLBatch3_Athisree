@@ -1,0 +1,17 @@
+package com.experion.assignment20;
+
+import java.util.Scanner;
+
+public class ProductUtility {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("1.Add Product, 2.Display 3.Check validity ");
+		
+		
+ 
+	}
+
+}

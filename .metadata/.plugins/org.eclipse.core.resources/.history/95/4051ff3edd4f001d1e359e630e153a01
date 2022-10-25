@@ -1,0 +1,41 @@
+package com.experion.assignment1;
+
+import java.util.Scanner;
+
+public class DescendingAscending {
+
+	public static void main(String[] args) {
+
+		int temp = 0;
+		Scanner scanner = new Scanner(System.in);
+		int numberList[] = new int[4];
+
+		System.out.println("Enter the 4 numbers:");
+		for (int i = 0; i < 4; i++) {
+
+			numberList[i] = scanner.nextInt();
+		}
+
+		for (int i = 0; i < 4; i++) {
+			for (int k = i + 1; k < 4; ++k) {
+				if (numberList[i] > numberList[k]) {
+					temp = numberList[k];
+					numberList[k] = numberList[i];
+					numberList[i] = temp;
+
+				}
+
+			}
+
+		}
+		System.out.println("The numbers in Ascending order:");
+		for (int i = 0; i < 4; i++) {
+			System.out.print(numberList[i] + ",");
+		}
+		System.out.println("The numbers in Descending order:");
+		for (int i = 4; i>=0; i--) {
+			System.out.print(numberList[i] + ",");
+
+		}
+	}
+}

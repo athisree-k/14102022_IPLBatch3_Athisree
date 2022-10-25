@@ -1,0 +1,23 @@
+package com.experion.assignment1;
+
+public class Pattern_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int size = 4;
+		for (int i = 0 ;i<size;i++) {
+			System.out.print(i+1);
+			for (int j=1;j<=i;j++) {
+				System.out.print(j+1);
+				for (int k=2;k<j;k++) {
+				System.out.print(k+1);
+				}
+				System.out.print(" ");
+			}
+			System.out.println();
+		}
+
+
+	}
+
+}

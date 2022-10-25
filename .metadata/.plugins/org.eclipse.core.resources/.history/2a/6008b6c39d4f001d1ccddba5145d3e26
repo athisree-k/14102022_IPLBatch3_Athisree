@@ -1,0 +1,13 @@
+package com.experion.entity;
+
+public class ProductName {
+
+	String productName;
+
+	public ProductName(String productName) {
+		super();
+		this.productName = productName;
+	}
+	
+	
+}

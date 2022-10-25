@@ -1,0 +1,17 @@
+package com.experion.utility;
+
+
+import com.experion.entity.Account;
+
+
+
+public class BankUtility {
+
+	public static void main(String[] args) {
+		
+		Account account = new Account("Womens savings account","ACC198989", 10000);
+		// TODO Auto-generated method stub
+
+	}
+}
+

@@ -1,0 +1,24 @@
+package com.experion.assignment1;
+
+import java.util.Scanner;
+
+public class SumOfSeries {
+
+	public static void main(String[] args) {
+		int limit;
+		int Sum =0;
+		char choice;
+		// TODO Auto-generated method stub
+		do{System.out.println("Enter the limit");
+		Scanner scanner= new Scanner(System.in);
+		limit = scanner.nextInt();
+		
+		System.out.println("Sum of the series of type 1-3+5-7+.............+n");
+		
+		Sum = (-2)*limit;
+		System.out.println("Sum of first 5 digits:"+Sum);
+		}while(choice =='y');
+
+	}
+
+}

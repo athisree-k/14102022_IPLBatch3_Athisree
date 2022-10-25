@@ -1,0 +1,10 @@
+package com.experion.entity;
+
+public interface FabricService {
+
+	static Product createProduct(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
